@@ -5,9 +5,10 @@ from datetime import datetime as dt
 import yfinance as yf
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
-import pandas as pd
+
 import plotly.graph_objs as go
 import plotly.express as px
+import pandas as pd
 # model
 from model import prediction
 from sklearn.svm import SVR
